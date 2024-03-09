@@ -1,0 +1,346 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.card{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 14px;
+    margin-bottom: 50px; 
+}
+.img{
+    width: 100%;
+    height: 280px;
+    border-radius: 14px;
+}
+.card-header{
+    position: relative;
+}
+.hrtbtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 50%;
+}
+
+.img2{
+    width: 25px;
+    height: 25px;
+}
+.ratings{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    gap: 125px;
+    margin-bottom: -30px;
+}
+.card p{
+margin-bottom: -10px;
+}
+.pr{
+    color: gray;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+}
+.search{
+    position: fixed;
+    right: 40%;
+    display: flex;
+    gap: 20px;
+    border-radius: 75px;
+    padding: 5px 15px;
+    border: 1px solid lightgray;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+    font-size: 15px;
+    
+}
+.search:hover{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+.toggle{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    margin: 15px auto;
+}
+
+.abn a:hover{
+    background-color: rgb(250, 245, 245);
+    border-radius: 25px;
+    
+}
+.globe a:hover{
+    background-color: rgb(250, 245, 245);
+    border-radius: 50%;
+}
+.abn{
+    border-radius: 75px;  
+}
+.globe{
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin: 0 -20px;
+}
+.togglebtn{
+    margin: 0;
+    margin-right: -60px;
+    color: gray;
+}
+.searchbtn{
+    margin: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #ff385c;
+    color: white;
+    padding: 6px 10px;
+    margin-right: -7px;
+    font-weight: bold;
+}
+.link1{
+    margin-left: -50px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px 0;
+    width: 100vw;
+    margin: 0 auto;
+    align-items: center;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin: 0;
+    
+}
+.nav1{
+    width: 100vw;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.link4{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.t1{
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    margin-left: -60px;
+}
+.t2{
+    font-weight: 300;
+    text-decoration: none;
+    color: gray;
+    margin-left: -150px;
+}
+.link5 {
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+}
+.link5:hover{
+    color: black;
+}
+
+.var{
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.login{
+    border-radius: 75px;
+    height: 30px;
+    width: 60px;
+    border: 1px solid lightgray;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.login:hover{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+.filter{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 1px 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-right: 50px;
+}
+
+.chevron{
+    border: 1px solid lightgray;
+    border-radius: 100px;
+    padding: 3px 7px;
+    margin: -10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.chevron:hover{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+.line{
+   border-left: 1px solid lightgray;
+    height: 20px;
+   
+}
+.line1{
+    border-left: 1px solid lightgray;
+    height: 20px;
+    margin-left: -150px;
+}
+.hline{
+    border-top: 1px solid lightgray;
+    width: 100vw;
+}
+.navimg{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin: 8px auto;
+}
+                                 /***********footer*************/
+.footer{
+    background-color: #F7F7F7;
+    width: 100%;
+}
+.footer hr{
+    width: 95%;
+    color: lightgray;
+}
+.c{
+    display: flex;
+    justify-content: space-evenly;
+}
+.c1 p{
+    color: gray;
+    margin-top: -2px;
+}
+.c1 a{
+    font-weight: 500;
+}
+.c1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.f_link a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: gray;
+    font-weight: 500;
+}
+.f_link{
+    margin-left: 52px;
+    margin-bottom: 20px;
+}.f1 h2{
+    margin-left: 82px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 400;
+   margin-top: 50px;
+}
+.co{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 40px; 
+}
+.co1 a{
+    display: block ;
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+margin-top: 10px;
+}
+.co1{
+    margin-left: -90px;
+}
+.co1 p{
+    color: black;
+    font-weight: 500;
+}
+.co1 a:hover{
+    text-decoration: underline;
+}
+.f2{
+    
+    border-top: 1px solid lightgray;
+}
+.left a{
+    text-decoration: none;
+    color: gray;
+}
+.left a:hover{
+    text-decoration: underline;
+}
+.left{
+    margin-left: 80px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: gray;
+}
+.right{
+margin-right: 50px;
+display: flex;
+
+}
+.f3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.right_1{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}.right_2{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}.right_globe{
+    margin-right: 10px;
+}
